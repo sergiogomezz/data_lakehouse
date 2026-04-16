@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# AWS CDK / CloudFormation artifacts
+cdk.out/
+*.template.json
+
+# Logs and local runtime files
+*.log
+*.pid
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.crt
+**/certificates/
+**/.aws/
+**/credentials
+**/config
+
+# Large local data artifacts
+tests/hudi-table/
